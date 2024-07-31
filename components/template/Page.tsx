@@ -9,7 +9,7 @@ const background = require('@/assets/images/background.jpg')
 export default function Page(props: PageProps) {
     return (
         <View style={styles.container}>
-            <ImageBackground source={background} resizeMode="cover" style={styles.image}>
+            <ImageBackground source={background} resizeMode="cover" style={styles.image} imageStyle={{opacity: 0.4}}>
                 {props.children}
             </ImageBackground>
         </View>)

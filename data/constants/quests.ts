@@ -1,6 +1,6 @@
 import Quest from '@/data/model/quest';
 
-const quests: Quest[] = [
+const allQuests: Quest[] = [
     {
         id: 1,
         statement: 'Qual é o maior planeta do sistema solar?',
@@ -198,4 +198,4 @@ const quests: Quest[] = [
     },
 ]
 
-export default quests;
+export default allQuests;
